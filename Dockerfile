@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 ENV SS_SCRIPT="https://github.com/shadowsocks/shadowsocks-libev/raw/master/docker/alpine/Dockerfile" \
-    SS_URL="https://glare.arukascloud.io/shadowsocks/shadowsocks-libev/.*gz" \
+    SS_URL="https://glare.now.sh/shadowsocks/shadowsocks-libev/.*gz" \
     SS_PORT=8388 \
     SS_PASSWORD="" \
     SS_METHOD="aes-256-cfb" \
